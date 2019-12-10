@@ -1,0 +1,1 @@
+C:\Users\g00373792\Downloads\ChessMate-master\ChessMate\ChessMate.UWP\ChessMate.UWP.csproj;x86

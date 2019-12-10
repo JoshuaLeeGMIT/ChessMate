@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChessMate.Queen">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Queen.png" WidthRequest="160" HeightRequest="160"
+                   HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="The Queen" FontSize="Large"
+                   HorizontalOptions="Center" VerticalOptions="Center"/>
+            <StackLayout x:Name="InfoBox" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+                         WidthRequest="320">
+                <Label x:Name="Description"/>
+                <Image x:Name="Movement" Margin="4, 4, 4, 0"
+                       HorizontalOptions="Center" VerticalOptions="Center">
+                </Image>
+            </StackLayout>
+            <Button x:Name="RevealBtn" Text="Reveal more..." Clicked="ButtonClicked"
+                    Margin="0, 16, 0, 0" HorizontalOptions="Center" VerticalOptions="Center">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
